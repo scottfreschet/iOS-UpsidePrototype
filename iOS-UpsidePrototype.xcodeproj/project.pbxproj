@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EBD11B717BBDC1B00FF5384 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD11B617BBDC1B00FF5384 /* UIKit.framework */; };
+		8EBD11B917BBDC1C00FF5384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD11B817BBDC1B00FF5384 /* Foundation.framework */; };
+		8EBD11BB17BBDC1C00FF5384 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD11BA17BBDC1C00FF5384 /* CoreGraphics.framework */; };
+		8EBD11C117BBDC1C00FF5384 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11BF17BBDC1C00FF5384 /* InfoPlist.strings */; };
+		8EBD11C317BBDC1C00FF5384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11C217BBDC1C00FF5384 /* main.m */; };
+		8EBD11C717BBDC1C00FF5384 /* UPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11C617BBDC1C00FF5384 /* UPAppDelegate.m */; };
+		8EBD11C917BBDC1C00FF5384 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11C817BBDC1C00FF5384 /* Default.png */; };
+		8EBD11CB17BBDC1C00FF5384 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11CA17BBDC1C00FF5384 /* Default@2x.png */; };
+		8EBD11CD17BBDC1C00FF5384 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11CC17BBDC1C00FF5384 /* Default-568h@2x.png */; };
+		8EBD11D017BBDC1C00FF5384 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11CE17BBDC1C00FF5384 /* MainStoryboard.storyboard */; };
+		8EBD11DC17BBDC7800FF5384 /* UPMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11DB17BBDC7800FF5384 /* UPMap.m */; };
+		8EBD11DF17BBDC9200FF5384 /* UPStoreBooklet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11DE17BBDC9200FF5384 /* UPStoreBooklet.m */; };
+		8EBD11E217BBDCAD00FF5384 /* UPDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11E117BBDCAD00FF5384 /* UPDetails.m */; };
+		8EBD11E517BBDF4900FF5384 /* Pix_Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11E417BBDF4900FF5384 /* Pix_Arrow.png */; };
+		8EBD11E817BBE36700FF5384 /* UPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11E717BBE36700FF5384 /* UPCollectionViewCell.m */; };
+		8EBD11EC17BBE47600FF5384 /* DMPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11EB17BBE47600FF5384 /* DMPromotion.m */; };
+		8EBD11F017BBE97700FF5384 /* ScreenshotUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD11EF17BBE97700FF5384 /* ScreenshotUtils.m */; };
+		8EBD11F617BBF56A00FF5384 /* Pix_CokeCan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11F117BBF56A00FF5384 /* Pix_CokeCan.jpeg */; };
+		8EBD11F717BBF56A00FF5384 /* Pix_DrPepperCan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11F217BBF56A00FF5384 /* Pix_DrPepperCan.jpeg */; };
+		8EBD11F817BBF56A00FF5384 /* Pix_MtnDewCan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11F317BBF56A00FF5384 /* Pix_MtnDewCan.jpeg */; };
+		8EBD11F917BBF56A00FF5384 /* Pix_PepsiCan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11F417BBF56A00FF5384 /* Pix_PepsiCan.jpeg */; };
+		8EBD11FA17BBF56A00FF5384 /* Pix_SpriteCan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11F517BBF56A00FF5384 /* Pix_SpriteCan.jpeg */; };
+		8EBD11FC17BBFC4A00FF5384 /* Pix_StoreMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD11FB17BBFC4A00FF5384 /* Pix_StoreMap.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EBD11B317BBDC1B00FF5384 /* iOS-UpsidePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-UpsidePrototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD11B617BBDC1B00FF5384 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EBD11B817BBDC1B00FF5384 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EBD11BA17BBDC1C00FF5384 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EBD11BE17BBDC1C00FF5384 /* iOS-UpsidePrototype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-UpsidePrototype-Info.plist"; sourceTree = "<group>"; };
+		8EBD11C017BBDC1C00FF5384 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EBD11C217BBDC1C00FF5384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBD11C417BBDC1C00FF5384 /* iOS-UpsidePrototype-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-UpsidePrototype-Prefix.pch"; sourceTree = "<group>"; };
+		8EBD11C517BBDC1C00FF5384 /* UPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPAppDelegate.h; sourceTree = "<group>"; };
+		8EBD11C617BBDC1C00FF5384 /* UPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPAppDelegate.m; sourceTree = "<group>"; };
+		8EBD11C817BBDC1C00FF5384 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8EBD11CA17BBDC1C00FF5384 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8EBD11CC17BBDC1C00FF5384 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8EBD11CF17BBDC1C00FF5384 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8EBD11DA17BBDC7800FF5384 /* UPMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPMap.h; path = Controllers/UPMap.h; sourceTree = "<group>"; };
+		8EBD11DB17BBDC7800FF5384 /* UPMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPMap.m; path = Controllers/UPMap.m; sourceTree = "<group>"; };
+		8EBD11DD17BBDC9200FF5384 /* UPStoreBooklet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPStoreBooklet.h; path = Controllers/UPStoreBooklet.h; sourceTree = "<group>"; };
+		8EBD11DE17BBDC9200FF5384 /* UPStoreBooklet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPStoreBooklet.m; path = Controllers/UPStoreBooklet.m; sourceTree = "<group>"; };
+		8EBD11E017BBDCAD00FF5384 /* UPDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPDetails.h; path = Controllers/UPDetails.h; sourceTree = "<group>"; };
+		8EBD11E117BBDCAD00FF5384 /* UPDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPDetails.m; path = Controllers/UPDetails.m; sourceTree = "<group>"; };
+		8EBD11E417BBDF4900FF5384 /* Pix_Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pix_Arrow.png; path = Resources/Pix_Arrow.png; sourceTree = "<group>"; };
+		8EBD11E617BBE36700FF5384 /* UPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPCollectionViewCell.h; path = Controllers/UPCollectionViewCell.h; sourceTree = "<group>"; };
+		8EBD11E717BBE36700FF5384 /* UPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPCollectionViewCell.m; path = Controllers/UPCollectionViewCell.m; sourceTree = "<group>"; };
+		8EBD11EA17BBE47600FF5384 /* DMPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMPromotion.h; path = Data/DMPromotion.h; sourceTree = "<group>"; };
+		8EBD11EB17BBE47600FF5384 /* DMPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMPromotion.m; path = Data/DMPromotion.m; sourceTree = "<group>"; };
+		8EBD11EE17BBE97700FF5384 /* ScreenshotUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenshotUtils.h; path = Utils/ScreenshotUtils.h; sourceTree = "<group>"; };
+		8EBD11EF17BBE97700FF5384 /* ScreenshotUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenshotUtils.m; path = Utils/ScreenshotUtils.m; sourceTree = "<group>"; };
+		8EBD11F117BBF56A00FF5384 /* Pix_CokeCan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_CokeCan.jpeg; path = Resources/Pix_CokeCan.jpeg; sourceTree = "<group>"; };
+		8EBD11F217BBF56A00FF5384 /* Pix_DrPepperCan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_DrPepperCan.jpeg; path = Resources/Pix_DrPepperCan.jpeg; sourceTree = "<group>"; };
+		8EBD11F317BBF56A00FF5384 /* Pix_MtnDewCan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_MtnDewCan.jpeg; path = Resources/Pix_MtnDewCan.jpeg; sourceTree = "<group>"; };
+		8EBD11F417BBF56A00FF5384 /* Pix_PepsiCan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_PepsiCan.jpeg; path = Resources/Pix_PepsiCan.jpeg; sourceTree = "<group>"; };
+		8EBD11F517BBF56A00FF5384 /* Pix_SpriteCan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_SpriteCan.jpeg; path = Resources/Pix_SpriteCan.jpeg; sourceTree = "<group>"; };
+		8EBD11FB17BBFC4A00FF5384 /* Pix_StoreMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pix_StoreMap.png; path = Resources/Pix_StoreMap.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBD11B017BBDC1B00FF5384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD11B717BBDC1B00FF5384 /* UIKit.framework in Frameworks */,
+				8EBD11B917BBDC1C00FF5384 /* Foundation.framework in Frameworks */,
+				8EBD11BB17BBDC1C00FF5384 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EBD11AA17BBDC1B00FF5384 = {
+			isa = PBXGroup;
+			children = (
+				8EBD11BC17BBDC1C00FF5384 /* iOS-UpsidePrototype */,
+				8EBD11B517BBDC1B00FF5384 /* Frameworks */,
+				8EBD11B417BBDC1B00FF5384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBD11B417BBDC1B00FF5384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11B317BBDC1B00FF5384 /* iOS-UpsidePrototype.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBD11B517BBDC1B00FF5384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11B617BBDC1B00FF5384 /* UIKit.framework */,
+				8EBD11B817BBDC1B00FF5384 /* Foundation.framework */,
+				8EBD11BA17BBDC1C00FF5384 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EBD11BC17BBDC1C00FF5384 /* iOS-UpsidePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11CE17BBDC1C00FF5384 /* MainStoryboard.storyboard */,
+				8EBD11C517BBDC1C00FF5384 /* UPAppDelegate.h */,
+				8EBD11C617BBDC1C00FF5384 /* UPAppDelegate.m */,
+				8EBD11D917BBDC5000FF5384 /* Controllers */,
+				8EBD11E317BBDF3800FF5384 /* Resources */,
+				8EBD11E917BBE45400FF5384 /* Data */,
+				8EBD11ED17BBE94400FF5384 /* Utils */,
+				8EBD11BD17BBDC1C00FF5384 /* Supporting Files */,
+			);
+			path = "iOS-UpsidePrototype";
+			sourceTree = "<group>";
+		};
+		8EBD11BD17BBDC1C00FF5384 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11BE17BBDC1C00FF5384 /* iOS-UpsidePrototype-Info.plist */,
+				8EBD11BF17BBDC1C00FF5384 /* InfoPlist.strings */,
+				8EBD11C217BBDC1C00FF5384 /* main.m */,
+				8EBD11C417BBDC1C00FF5384 /* iOS-UpsidePrototype-Prefix.pch */,
+				8EBD11C817BBDC1C00FF5384 /* Default.png */,
+				8EBD11CA17BBDC1C00FF5384 /* Default@2x.png */,
+				8EBD11CC17BBDC1C00FF5384 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EBD11D917BBDC5000FF5384 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11DA17BBDC7800FF5384 /* UPMap.h */,
+				8EBD11DB17BBDC7800FF5384 /* UPMap.m */,
+				8EBD11DD17BBDC9200FF5384 /* UPStoreBooklet.h */,
+				8EBD11DE17BBDC9200FF5384 /* UPStoreBooklet.m */,
+				8EBD11E617BBE36700FF5384 /* UPCollectionViewCell.h */,
+				8EBD11E717BBE36700FF5384 /* UPCollectionViewCell.m */,
+				8EBD11E017BBDCAD00FF5384 /* UPDetails.h */,
+				8EBD11E117BBDCAD00FF5384 /* UPDetails.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8EBD11E317BBDF3800FF5384 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11E417BBDF4900FF5384 /* Pix_Arrow.png */,
+				8EBD11F117BBF56A00FF5384 /* Pix_CokeCan.jpeg */,
+				8EBD11F217BBF56A00FF5384 /* Pix_DrPepperCan.jpeg */,
+				8EBD11F317BBF56A00FF5384 /* Pix_MtnDewCan.jpeg */,
+				8EBD11F417BBF56A00FF5384 /* Pix_PepsiCan.jpeg */,
+				8EBD11F517BBF56A00FF5384 /* Pix_SpriteCan.jpeg */,
+				8EBD11FB17BBFC4A00FF5384 /* Pix_StoreMap.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8EBD11E917BBE45400FF5384 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11EA17BBE47600FF5384 /* DMPromotion.h */,
+				8EBD11EB17BBE47600FF5384 /* DMPromotion.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8EBD11ED17BBE94400FF5384 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD11EE17BBE97700FF5384 /* ScreenshotUtils.h */,
+				8EBD11EF17BBE97700FF5384 /* ScreenshotUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBD11B217BBDC1B00FF5384 /* iOS-UpsidePrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD11D617BBDC1C00FF5384 /* Build configuration list for PBXNativeTarget "iOS-UpsidePrototype" */;
+			buildPhases = (
+				8EBD11AF17BBDC1B00FF5384 /* Sources */,
+				8EBD11B017BBDC1B00FF5384 /* Frameworks */,
+				8EBD11B117BBDC1B00FF5384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-UpsidePrototype";
+			productName = "iOS-UpsidePrototype";
+			productReference = 8EBD11B317BBDC1B00FF5384 /* iOS-UpsidePrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBD11AB17BBDC1B00FF5384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Scott Freschet";
+			};
+			buildConfigurationList = 8EBD11AE17BBDC1B00FF5384 /* Build configuration list for PBXProject "iOS-UpsidePrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EBD11AA17BBDC1B00FF5384;
+			productRefGroup = 8EBD11B417BBDC1B00FF5384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBD11B217BBDC1B00FF5384 /* iOS-UpsidePrototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBD11B117BBDC1B00FF5384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD11C117BBDC1C00FF5384 /* InfoPlist.strings in Resources */,
+				8EBD11C917BBDC1C00FF5384 /* Default.png in Resources */,
+				8EBD11CB17BBDC1C00FF5384 /* Default@2x.png in Resources */,
+				8EBD11CD17BBDC1C00FF5384 /* Default-568h@2x.png in Resources */,
+				8EBD11D017BBDC1C00FF5384 /* MainStoryboard.storyboard in Resources */,
+				8EBD11E517BBDF4900FF5384 /* Pix_Arrow.png in Resources */,
+				8EBD11F617BBF56A00FF5384 /* Pix_CokeCan.jpeg in Resources */,
+				8EBD11F717BBF56A00FF5384 /* Pix_DrPepperCan.jpeg in Resources */,
+				8EBD11F817BBF56A00FF5384 /* Pix_MtnDewCan.jpeg in Resources */,
+				8EBD11F917BBF56A00FF5384 /* Pix_PepsiCan.jpeg in Resources */,
+				8EBD11FA17BBF56A00FF5384 /* Pix_SpriteCan.jpeg in Resources */,
+				8EBD11FC17BBFC4A00FF5384 /* Pix_StoreMap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBD11AF17BBDC1B00FF5384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD11C317BBDC1C00FF5384 /* main.m in Sources */,
+				8EBD11C717BBDC1C00FF5384 /* UPAppDelegate.m in Sources */,
+				8EBD11DC17BBDC7800FF5384 /* UPMap.m in Sources */,
+				8EBD11DF17BBDC9200FF5384 /* UPStoreBooklet.m in Sources */,
+				8EBD11E217BBDCAD00FF5384 /* UPDetails.m in Sources */,
+				8EBD11E817BBE36700FF5384 /* UPCollectionViewCell.m in Sources */,
+				8EBD11EC17BBE47600FF5384 /* DMPromotion.m in Sources */,
+				8EBD11F017BBE97700FF5384 /* ScreenshotUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EBD11BF17BBDC1C00FF5384 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBD11C017BBDC1C00FF5384 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EBD11CE17BBDC1C00FF5384 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBD11CF17BBDC1C00FF5384 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EBD11D417BBDC1C00FF5384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EBD11D517BBDC1C00FF5384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBD11D717BBDC1C00FF5384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-UpsidePrototype/iOS-UpsidePrototype-Prefix.pch";
+				INFOPLIST_FILE = "iOS-UpsidePrototype/iOS-UpsidePrototype-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EBD11D817BBDC1C00FF5384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-UpsidePrototype/iOS-UpsidePrototype-Prefix.pch";
+				INFOPLIST_FILE = "iOS-UpsidePrototype/iOS-UpsidePrototype-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBD11AE17BBDC1B00FF5384 /* Build configuration list for PBXProject "iOS-UpsidePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD11D417BBDC1C00FF5384 /* Debug */,
+				8EBD11D517BBDC1C00FF5384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD11D617BBDC1C00FF5384 /* Build configuration list for PBXNativeTarget "iOS-UpsidePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD11D717BBDC1C00FF5384 /* Debug */,
+				8EBD11D817BBDC1C00FF5384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBD11AB17BBDC1B00FF5384 /* Project object */;
+}
